@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Open+Sans:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    /* border: 2px solid red; */
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 2px;
+}
+
+.btn-head {
+    background-color: blue !important;
+    color: white !important;
+}
+
+.btn-head:hover {
+    background-color: rgb(45, 126, 255) !important;
+}
+
+.navbar {
+    /* background-color: #0a0d13; */
+    background-color: #001d34;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+.nav-link:hover{
+    text-decoration: underline !important;
+}
+
+.dropdown-menu a {
+    color: black !important;
+}
+.dropend:hover >.dropdown-menu {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 100%;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+.home{
+    background-image: url(./img/hero-bg.png);
+    background-position: center center !important ;
+    background-size: cover !important ;
+    background-repeat: no-repeat !important;
+    background-color: #001d34;
+
+}
+.icon:hover i ,.icon:hover h5 ,.icon:hover a{
+    color: blue !important;
+}
+.card img{
+    transition: all 0.2s ease-in-out;
+}
+.card{
+    overflow:hidden  !important;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.parallax-bg{
+    background:linear-gradient(360deg,black,transparent 100%),url(./img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-attachment: fixed;
+}
+.parallax-bg .content{
+    position: relative;
+    color: #fff;
+    margin-top: 50px;
+}
+.btn-para{
+    border: 2px solid white;
+    color: #fff;
+    font-weight: bolder;
+    padding: 8px 30px;
+}
+.btn-para:hover{
+    background-color: blue;
+    color: #fff;
+    border: 2px solid blue;
+}
+.btn-heads{
+    background-color: #fff;
+    border: 1px solid blue;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.btn-heads:hover{
+    background-color: blue;
+    color: #fff;
+}
+.card ul{
+    line-height: 3;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+.headss1{
+    background-color:blue;
+    color: #fff;
+    border: 1px solid blue;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.headss1:hover{
+    color: #fff;
+}
+.footlinks i:hover{
+    border: 1px solid #fff !important;
+}
+.basel li:hover{
+    color: #fff !important;
+    cursor: pointer;
+}
+
+/* testimonial */
+/* .testimonial{
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
+    background: url(./img/testimonials-bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.testimonial::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(14, 29, 52, 0.7);
+}
+.contents img{
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 6px solid grey;
+}
+.testi-content{
+    position: relative;
+} */
+.carousel-inner{
+    background: url(./img/testimonials-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+}
+.carousel-item img{
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 6px solid grey;
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(14, 29, 52, 0.7);
+}
